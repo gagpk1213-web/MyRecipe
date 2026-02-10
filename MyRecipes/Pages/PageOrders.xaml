@@ -1,0 +1,36 @@
+<Page x:Class="MyRecipes.Pages.PageOrders"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:MyRecipes.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="PageOrders">
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Text="Управление заказами" FontSize="24" FontWeight="Bold"
+                   Foreground="{StaticResource AccentColor1}" HorizontalAlignment="Center"
+                   Margin="0,0,0,20" Grid.Row="0"/>
+
+        <!-- Содержимое -->
+        <Border Grid.Row="1" Background="{StaticResource AccentColor3}" Opacity="0.1"
+                CornerRadius="10" Padding="20">
+            <StackPanel VerticalAlignment="Center" HorizontalAlignment="Center">
+                <TextBlock Text="Заказы" FontSize="32" FontWeight="Bold"
+                          Foreground="{StaticResource AccentColor1}" HorizontalAlignment="Center"/>
+                <TextBlock Text="{Binding CurrentUserInfo}" FontSize="18"
+                          Foreground="{StaticResource AccentColor2}" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+                <TextBlock Text="Функционал заказов находится в разработке" FontSize="14"
+                          Foreground="{StaticResource AccentColor4}" HorizontalAlignment="Center" Margin="0,20,0,0"/>
+                <TextBlock Text="При клике на блюдо для обычных пользователей происходит переход сюда" FontSize="12"
+                          Foreground="{StaticResource AccentColor4}" HorizontalAlignment="Center" Margin="0,10,0,0"/>
+            </StackPanel>
+        </Border>
+    </Grid>
+</Page>

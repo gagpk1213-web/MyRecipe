@@ -1,0 +1,98 @@
+<Page x:Class="MyRecipes.Pages.PageCurrentRecipe"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:MyRecipes.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="PageCurrentRecipe">
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="ActionButtonStyle">
+            <Setter Property="Background" Value="{StaticResource AccentColor1}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource AccentColor2}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Text="{Binding Dish.Name}" FontSize="28" FontWeight="Bold"
+                   Foreground="{StaticResource AccentColor1}" HorizontalAlignment="Center"
+                   Margin="0,0,0,20" Grid.Row="0"/>
+
+        <!-- Изображение и основная информация -->
+        <Grid Grid.Row="1" Margin="0,0,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="200"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Изображение -->
+            <Image Source="{Binding Dish.Photo, Converter={StaticResource ImageConverter}}"
+                   Width="180" Height="180" Stretch="UniformToFill"
+                   Grid.Column="0" Margin="0,0,20,0"/>
+
+            <!-- Информация о блюде -->
+            <StackPanel Grid.Column="1" VerticalAlignment="Top">
+                <TextBlock Text="Категория:" FontWeight="Bold" Foreground="{StaticResource AccentColor1}" Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding Dish.Category.Name}" Background="{Binding Dish.Category.BackColor}" Foreground="Black"
+                          Padding="10,5" Margin="0,0,0,15"/>
+
+                <TextBlock Text="Количество порций:" FontWeight="Bold" Foreground="{StaticResource AccentColor1}" Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding Dish.ServingQuantity}" FontSize="16" Margin="0,0,0,15"/>
+
+                <TextBlock Text="Стоимость:" FontWeight="Bold" Foreground="{StaticResource AccentColor1}" Margin="0,0,0,5"/>
+                <TextBlock Text="{Binding Dish.TotalCost, StringFormat={}{0:N2} руб.}" FontSize="18" FontWeight="Bold"
+                          Foreground="{StaticResource AccentColor2}" Margin="0,0,0,15"/>
+            </StackPanel>
+        </Grid>
+
+        <!-- Описание и рецепт -->
+        <Border Grid.Row="2" Background="{StaticResource AccentColor3}" Opacity="0.1"
+                CornerRadius="10" Padding="20" Margin="0,0,0,20">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="Auto"/>
+                    <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
+
+                <TextBlock Text="Описание и рецепт" FontSize="20" FontWeight="Bold"
+                          Foreground="{StaticResource AccentColor1}" Margin="0,0,0,15" Grid.Row="0"/>
+
+                <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                    <TextBlock Text="{Binding Dish.RecipeLink}" TextWrapping="Wrap"
+                              FontSize="14" LineHeight="20" Foreground="{StaticResource AccentColor1}"/>
+                </ScrollViewer>
+            </Grid>
+        </Border>
+
+        <!-- Кнопки действий -->
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Редактировать" Command="{Binding EditDishCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Width="140"/>
+            <Button Content="Описание" Command="{Binding ShowDescriptionCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Width="120"/>
+            <Button Content="Удалить" Command="{Binding DeleteDishCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Background="#dc3545" Width="100"/>
+            <Button Content="Назад" Command="{Binding GoBackCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Background="#6c757d" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Page>

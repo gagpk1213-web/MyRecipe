@@ -1,0 +1,20 @@
+﻿MyRecipes
+
+
+winexe
+C#
+.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\
+MyRecipes
+none
+false
+DEBUG;TRACE
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\App.xaml
+12457181868
+21750853300
+352073840979
+181037146947
+MainWindow.xaml;Views\AddEditRecipeWindow.xaml;Views\AddIngredientWindow.xaml;Pages\PageListIngredients.xaml;Pages\PageListDishes.xaml;Pages\PageCurrentRecipe.xaml;Pages\PageCaptcha.xaml;Pages\LoginPage.xaml;Pages\PageAddEditIngredient.xaml;Pages\PageAddEditDish.xaml;Pages\PageDescription.xaml;Pages\PageOrders.xaml;
+
+False
+

@@ -1,0 +1,92 @@
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.AssemblyReference.cache
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MainWindow.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Views\AddEditRecipeWindow.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Views\AddIngredientWindow.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\App.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.cache
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.lref
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe.config
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\MyRecipes.pdb
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\App.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MainWindow.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Views\AddEditRecipeWindow.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Views\AddIngredientWindow.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.g.resources
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.Properties.Resources.resources
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.GenerateResource.cache
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CoreCompileInputs.cache
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.exe
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.pdb
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes_Content.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\EntityFramework.dll
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\EntityFramework.xml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.Up2Date
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditIngredient.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditDish.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageDescription.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageOrders.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.g.cs
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\LoginPage.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditIngredient.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditDish.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageDescription.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\Pages\PageOrders.baml
+C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe.config
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\MyRecipes.exe
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\MyRecipes.pdb
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\EntityFramework.dll
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\EntityFramework.xml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.AssemblyReference.cache
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MainWindow.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Views\AddEditRecipeWindow.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Views\AddIngredientWindow.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\LoginPage.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditIngredient.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditDish.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageDescription.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageOrders.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\App.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes_Content.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.cache
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes_MarkupCompile.lref
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\App.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MainWindow.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Views\AddEditRecipeWindow.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Views\AddIngredientWindow.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageListIngredients.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageListDishes.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageCurrentRecipe.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageCaptcha.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\LoginPage.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditIngredient.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageAddEditDish.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageDescription.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\Pages\PageOrders.baml
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.g.resources
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.Properties.Resources.resources
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.GenerateResource.cache
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CoreCompileInputs.cache
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.csproj.CopyComplete
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.exe
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\MyRecipes.pdb

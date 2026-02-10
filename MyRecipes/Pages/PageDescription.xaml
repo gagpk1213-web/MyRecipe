@@ -1,0 +1,97 @@
+<Page x:Class="MyRecipes.Pages.PageDescription"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+      xmlns:local="clr-namespace:MyRecipes.Pages"
+      mc:Ignorable="d"
+      d:DesignHeight="600" d:DesignWidth="1000"
+      Title="PageDescription">
+    <Page.Resources>
+        <Style TargetType="Button" x:Key="ActionButtonStyle">
+            <Setter Property="Background" Value="{StaticResource AccentColor1}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource AccentColor2}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Page.Resources>
+
+    <Grid Margin="20">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+        <!-- Заголовок -->
+        <TextBlock Text="{Binding Dish.Name}" FontSize="28" FontWeight="Bold"
+                   Foreground="{StaticResource AccentColor1}" HorizontalAlignment="Center"
+                   Margin="0,0,0,20" Grid.Row="0"/>
+
+        <!-- Основной контент -->
+        <Grid Grid.Row="1" Margin="0,0,0,20">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="250"/>
+            </Grid.ColumnDefinitions>
+
+            <!-- Описание рецепта -->
+            <Border Grid.Column="0" Background="{StaticResource AccentColor3}" Opacity="0.1"
+                    CornerRadius="10" Padding="20" Margin="0,0,20,0">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="Auto"/>
+                        <RowDefinition Height="*"/>
+                    </Grid.RowDefinitions>
+
+                    <TextBlock Text="Подробное описание рецепта" FontSize="20" FontWeight="Bold"
+                              Foreground="{StaticResource AccentColor1}" Margin="0,0,0,15" Grid.Row="0"/>
+
+                    <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Auto">
+                        <TextBlock Text="{Binding Dish.RecipeLink}" TextWrapping="Wrap"
+                                  FontSize="14" LineHeight="22"/>
+                    </ScrollViewer>
+                </Grid>
+            </Border>
+
+            <!-- QR-код и информация -->
+            <Border Grid.Column="1" Background="{StaticResource AccentColor4}" Opacity="0.1"
+                    CornerRadius="10" Padding="20">
+                <StackPanel>
+                    <TextBlock Text="QR-код рецепта" FontSize="18" FontWeight="Bold"
+                              Foreground="{StaticResource AccentColor1}" HorizontalAlignment="Center" Margin="0,0,0,15"/>
+
+                    <!-- Placeholder для QR-кода -->
+                    <Border Background="White" BorderBrush="{StaticResource AccentColor3}" BorderThickness="2"
+                            CornerRadius="5" Width="180" Height="180" Margin="0,0,0,15">
+                        <TextBlock Text="QR Code&#xA;Placeholder" FontSize="16" FontWeight="Bold"
+                                  Foreground="{StaticResource AccentColor2}" HorizontalAlignment="Center"
+                                  VerticalAlignment="Center" TextAlignment="Center"/>
+                    </Border>
+
+                    <TextBlock Text="Отсканируйте QR-код&#xA;для быстрого доступа&#xA;к рецепту"
+                              FontSize="12" Foreground="{StaticResource AccentColor1}"
+                              HorizontalAlignment="Center" TextAlignment="Center"/>
+                </StackPanel>
+            </Border>
+        </Grid>
+
+        <!-- Кнопки действий -->
+        <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Content="Поделиться" Command="{Binding ShareRecipeCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Width="120"/>
+            <Button Content="Печать" Command="{Binding PrintRecipeCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Width="100"/>
+            <Button Content="Назад" Command="{Binding GoBackCommand}"
+                    Style="{StaticResource ActionButtonStyle}" Background="#6c757d" Width="100"/>
+        </StackPanel>
+    </Grid>
+</Page>

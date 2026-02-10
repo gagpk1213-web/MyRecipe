@@ -1,0 +1,86 @@
+﻿    <Window x:Class="MyRecipes.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MyRecipes"
+        mc:Ignorable="d"
+        Title="Nyam-Nyam - Мои рецепты" Height="600" Width="1000"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="CanResize" WindowState="Normal" Icon="/Resources/nyam-nyam.ico">
+    <Window.Resources>
+        <Style TargetType="Button" x:Key="AccentButtonStyle">
+            <Setter Property="Background" Value="{StaticResource AccentColor1}"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="Padding" Value="10,5"/>
+            <Setter Property="Margin" Value="5"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Cursor" Value="Hand"/>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="{StaticResource AccentColor2}"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
+    </Window.Resources>
+
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+
+        <!-- Левая панель меню -->
+        <Border Grid.Column="0" Background="{StaticResource AccentColor3}" BorderBrush="{StaticResource AccentColor1}" BorderThickness="0,0,1,0">
+            <StackPanel Margin="10">
+                <!-- Заголовок -->
+                <TextBlock Text="Nyam-Nyam" FontSize="18" FontWeight="Bold"
+                          Foreground="{StaticResource AccentColor1}" HorizontalAlignment="Center" Margin="0,0,0,20"/>
+
+                <!-- Кнопки меню -->
+                <Button Content="Блюда" Command="{Binding NavigateToDishesCommand}"
+                        Style="{StaticResource AccentButtonStyle}" Margin="0,0,0,10"/>
+                <Button Content="Ингредиенты" Command="{Binding NavigateToIngredientsCommand}"
+                        Style="{StaticResource AccentButtonStyle}" Margin="0,0,0,10"/>
+                <Button Content="Заказы" Command="{Binding NavigateToOrdersCommand}"
+                        Style="{StaticResource AccentButtonStyle}" Margin="0,0,0,10"
+                        Visibility="{Binding IsAdminVisibility}"/>
+
+                <!-- Информация о пользователе -->
+                <Border Background="{StaticResource AccentColor4}" CornerRadius="5" Padding="10" Margin="0,20,0,0">
+                    <StackPanel>
+                        <TextBlock Text="Пользователь:" FontWeight="Bold" Foreground="White"/>
+                        <TextBlock Text="{Binding CurrentUser}" Foreground="White"/>
+                        <TextBlock Text="{Binding CurrentUserRole}" Foreground="White" FontStyle="Italic"/>
+                        <Button Content="🚪 Выход" Command="{Binding LogoutCommand}"
+                                Background="#f44336" Foreground="White" FontSize="12" FontWeight="Bold"
+                                Width="80" Height="25" Margin="0,10,0,0" BorderThickness="0" Cursor="Hand">
+                            <Button.Style>
+                                <Style TargetType="Button">
+                                    <Setter Property="Template">
+                                        <Setter.Value>
+                                            <ControlTemplate TargetType="Button">
+                                                <Border Background="{TemplateBinding Background}" CornerRadius="3">
+                                                    <ContentPresenter HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                                </Border>
+                                            </ControlTemplate>
+                                        </Setter.Value>
+                                    </Setter>
+                                    <Style.Triggers>
+                                        <Trigger Property="IsMouseOver" Value="True">
+                                            <Setter Property="Background" Value="#d32f2f"/>
+                                        </Trigger>
+                                    </Style.Triggers>
+                                </Style>
+                            </Button.Style>
+                        </Button>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+        </Border>
+
+        <!-- Основная область с Frame для навигации -->
+        <Frame x:Name="MainFrame" Grid.Column="1" NavigationUIVisibility="Hidden"/>
+    </Grid>
+</Window>
