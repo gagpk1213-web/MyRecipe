@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\obj\Debug\
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\obj\Debug\
 MyRecipes
 none
 false
 DEBUG;TRACE
-C:\Users\79835\OneDrive\Рабочий стол\Общие ресурсы\MyRecipes\MyRecipes\App.xaml
-12704519115
-2-1957146511
-36-1434454242
-18-882374637
+C:\Users\pff1\Desktop\1213 Komolikov\MyRecipes\MyRecipes\App.xaml
+12457181868
+21750853300
+39-1836173541
+181037146947
 MainWindow.xaml;Views\AddEditRecipeWindow.xaml;Views\AddIngredientWindow.xaml;Pages\PageListIngredients.xaml;Pages\PageListDishes.xaml;Pages\PageCurrentRecipe.xaml;Pages\PageCaptcha.xaml;Pages\LoginPage.xaml;Pages\PageAddEditIngredient.xaml;Pages\PageAddEditDish.xaml;Pages\PageDescription.xaml;Pages\PageOrders.xaml;
 
-True
+False
 

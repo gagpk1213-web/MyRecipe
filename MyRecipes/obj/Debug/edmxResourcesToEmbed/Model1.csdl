@@ -129,7 +129,7 @@
       </Dependent>
     </ReferentialConstraint>
   </Association>
-  <EntityContainer Name="MyRecipesEntities" annotation:LazyLoadingEnabled="true">
+  <EntityContainer Name="MyRecipesEntities1" annotation:LazyLoadingEnabled="true">
     <EntitySet Name="Category" EntityType="Self.Category" />
     <EntitySet Name="CookingStage" EntityType="Self.CookingStage" />
     <EntitySet Name="Dish" EntityType="Self.Dish" />

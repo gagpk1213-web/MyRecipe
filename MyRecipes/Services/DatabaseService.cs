@@ -7,13 +7,13 @@ namespace MyRecipes.Services
 {
     public class DatabaseService : IDataService
     {
-        private readonly MyRecipesEntities _context;
+        private readonly MyRecipesEntities1 _context;
 
         public DatabaseService()
         {
             try
             {
-                _context = new MyRecipesEntities();
+                _context = new MyRecipesEntities1();
             }
             catch (Exception)
             {

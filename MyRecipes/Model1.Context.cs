@@ -13,10 +13,10 @@ namespace MyRecipes
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class MyRecipesEntities : DbContext
+    public partial class MyRecipesEntities1 : DbContext
     {
-        public MyRecipesEntities()
-            : base("name=MyRecipesEntities")
+        public MyRecipesEntities1()
+            : base("name=MyRecipesEntities1")
         {
         }
     
@@ -30,10 +30,9 @@ namespace MyRecipes
         public virtual DbSet<Dish> Dish { get; set; }
         public virtual DbSet<Ingredient> Ingredient { get; set; }
         public virtual DbSet<IngredientOfStage> IngredientOfStage { get; set; }
-        public virtual DbSet<Unit> Unit { get; set; }
         public virtual DbSet<Role> Role { get; set; }
+        public virtual DbSet<sysdiagrams> sysdiagrams { get; set; }
+        public virtual DbSet<Unit> Unit { get; set; }
         public virtual DbSet<User> User { get; set; }
-        public virtual DbSet<Tag> Tag { get; set; }
-        public virtual DbSet<TagOfIngredient> TagOfIngredient { get; set; }
     }
 }

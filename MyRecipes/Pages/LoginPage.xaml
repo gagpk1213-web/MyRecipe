@@ -17,12 +17,6 @@
                       Foreground="{StaticResource AccentColor2}" HorizontalAlignment="Center" Margin="0,0,0,25"/>
 
             <!-- Демо-пользователи -->
-            <TextBlock Text="Демо-пользователи:" FontSize="14" FontWeight="Bold"
-                      Foreground="{StaticResource AccentColor1}" Margin="0,0,0,8"/>
-            <TextBlock Text="• Admin: логин 'admin', пароль 'admin'"
-                      FontSize="13" Foreground="{StaticResource AccentColor1}" Margin="0,0,0,3"/>
-            <TextBlock Text="• User: логин 'user', пароль 'user'"
-                      FontSize="13" Foreground="{StaticResource AccentColor1}" Margin="0,0,0,25"/>
 
             <!-- Логин -->
             <TextBlock Text="Логин:" FontSize="14" FontWeight="Bold"
